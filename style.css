@@ -1,0 +1,102 @@
+.logo img{
+    height: 50px;
+}
+.nav{
+    background-color: yellow;
+    padding: 15px;
+    display:flex;
+
+}
+li{
+    list-style: none;
+    display: inline;
+    margin-right: 30px;
+    
+}
+a{
+    text-decoration: none;
+}
+.main{
+    background-image: url("https://www.lego.com/cdn/cs/set/assets/bltf0ded8e7eed46fed/41748-Friends-HS-202306-PS-Hero-Standard-Large.jpg?fit=crop&format=webply&quality=80&width=1600&height=500&dpr=1");
+    height: 95vh;
+    background-repeat: no-repeat;
+    display :flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    animation: slideup 2s ease-out;
+
+
+}
+@keyframes slideup { 
+    0%{
+        transform: translateY(100px);
+
+    }
+    100%
+    {
+        transform: translateY(0px);
+    }
+}
+.btn{
+    background-color:white;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.2s;
+    
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+}
+.flexcontainer{
+    display:flex;
+    flex-wrap:wrap ;
+    justify-content:space-around ;
+}
+.cards{
+    height: 400px;
+    width: 250px;
+    background: rgba(47, 146, 226, 0.822); 
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    transition: transform 0.2s;
+
+    
+    
+}
+.cards:hover{
+    transform: scale(1.2);
+}
+img{
+    width: 100%;
+}
+.ok{
+    background-color:WHITE ;
+    margin: 0;
+    padding: 0;
+}
+.container2{
+    background-image:url("https://helios-i.mashable.com/imagery/articles/002A8zm02QgErwpwXRUT3EB/hero-image.fill.size_1248x702.v1667506124.png");
+}.vv23{
+    
+    color: black;
+    transform: scale(1.2);
+
+    background-color:white;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.2s;
+    
+}
+.feeter{
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    
+}
